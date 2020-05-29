@@ -1,0 +1,25 @@
+
+# Created by https://www.gitignore.io/api/clojure,leiningen
+# Edit at https://www.gitignore.io/?templates=clojure,leiningen
+
+### Clojure ###
+pom.xml
+pom.xml.asc
+*.jar
+*.class
+/lib/
+/classes/
+/target/
+/checkouts/
+.lein-deps-sum
+.lein-repl-history
+.lein-plugins/
+.lein-failures
+.nrepl-port
+.nrepl-history
+.cpcache/
+.clj-kondo/.cache/
+
+### Leiningen ###
+
+# End of https://www.gitignore.io/api/clojure,leiningen
