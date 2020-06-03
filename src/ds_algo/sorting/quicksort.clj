@@ -6,10 +6,10 @@
 
 
 (defn quicksort
-  """
+  "
   Best case O(nlogn)
   Worst case O(n^2)
-  """
+  "
   [arr]
   (if
     (<= (count arr) 1) arr
